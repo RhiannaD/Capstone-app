@@ -1,0 +1,82 @@
+.Merch{
+   width:27em; 
+   padding: 10px;
+   border-radius: 22px;
+   margin-bottom: 15px;
+   margin-left:10px
+
+}
+
+.MerchBox{
+   border: 2px solid white;
+   background: linear-gradient(gray, black);
+   margin: 1em;
+   
+}
+
+.Cart{
+  color:rgb(214, 145, 145);
+  background-color: rgb(84, 78, 78);
+  padding: 5px;
+  margin-left: 50em;
+ 
+}
+
+.Ratings{
+ padding: 6px;
+ margin-left: 10px;
+}
+
+.itemNum{
+   color: rgb(225, 215, 217);
+}
+
+.shopInfo{
+   color:white;
+   margin: -28em 0px 0px 45em;
+   font-family: 'Press Start 2P';
+   line-height: 45px;
+}
+
+.Plus{
+   color: white;
+}
+
+.buttonPlus{
+   background-color: transparent;
+   border-radius: 15px;
+   padding: 7px;
+   margin: 2em 0 2em .5em;
+}
+
+.Minus{
+   color: white;
+}
+
+.buttonMinus{
+   background-color: transparent;
+   border-radius: 15px;
+   padding: 7px;
+   margin:2em .5em 2em .5em;
+
+}
+
+.add{
+   margin-right:20%;
+}
+
+
+.cartItemsCount {
+   position: fixed;
+   top: 120px;
+   right: 25px;
+   border-radius: 50%;
+   border: 3px solid rgb(227, 219, 219);
+   z-index: 30;
+   align-items: center;
+   width: 10px;
+   text-align: center;
+   color: aliceblue;
+   font-size: 16px;
+   padding: 5px;
+}

@@ -1,0 +1,96 @@
+.card{
+    width: 50%;
+    height: 25em;
+    background: linear-gradient(gray,rgb(62, 60, 60),black,black);
+    border: solid 2px white;
+    float: right;
+    position: relative;
+    top:-237px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+}
+
+
+
+.Tv{
+    width: 45%;
+    height: auto;
+    padding:10px;
+   
+    
+    
+}
+
+.video-overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+.video{
+    border-radius: 5px;
+    border: 2px solid rgb(68, 65, 65);
+    width: 27%;
+    max-width: 100%;
+    float: right;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: auto;
+    margin: -80px 5px -20px -160px;
+    
+}
+
+@media (max-width:768px){
+    .video-overlay{
+        position: relative;
+        height: auto;
+    }
+    .video-overlay video{
+        position: static;
+        max-width: 100%;
+        height: auto;
+        transform: none;
+    }
+}
+
+.card-text-video{
+ position: relative;
+ float:right;
+ color:rgb(215, 117, 117);
+ margin-top: -30%;
+ font-family: 'Press Start 2P';
+}
+
+.listen{
+    font-family: 'Press Start 2P';
+    color: rgb(215, 117, 117);
+    font-size: 12px;
+    margin-left:15px ;
+}
+
+.Spotify{
+    width: 20px;
+   
+}
+
+.SoundCloud{
+    width: 20px;
+   
+}
+
+.YouTube{
+    width: 20px;
+   
+}
+
+
+.musicLinks{
+    margin-left: 12px;
+}

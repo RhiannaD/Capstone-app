@@ -1,0 +1,10 @@
+.card-aboutMe{
+    float: left;
+    color: rgb(195, 103, 103);
+    line-height: 30px;
+    border: solid 2px white;
+    padding: 20px;
+    margin: 50px 10px 60px 10px;
+    width: 50rem;
+    background: linear-gradient(gray,rgb(62, 60, 60),black,black) ;
+}

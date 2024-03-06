@@ -1,0 +1,64 @@
+.card-mb-3{
+    border:solid white;
+    margin:20px;
+    width: 30%;
+    height: 300px;
+    background: linear-gradient(gray, rgb(195, 103, 103),gray) ;
+    position: relative;
+    bottom: -90px;
+    max-width: 400px;
+    padding: 0 10px;
+    box-sizing: border-box;
+  
+    
+}
+.img-fluid-rounded-start{
+    width: 40%;
+    /* margin-top:40px; */
+    /* border: solid 3px rgb(133, 92, 92); */
+    border-radius: 45px;
+}
+
+.card-title{
+color: white;
+font-family: 'Press Start 2P';
+font-size: 20px;
+
+}
+
+
+
+
+.card-text1{
+    float: right;
+    flex-direction: row;
+    justify-content: right;
+    margin: -140px 50px 10px 20px;
+    font-family: 'Press Start 2P';
+    font-size: 12px;
+    line-height: 20px;
+   
+}
+.Twitter{
+    width: 20px;
+}
+.TikTok{
+    width:20px;
+}
+.Instagram{
+    width: 20px;
+}
+
+
+.email{
+    margin:-50px 80px -50px 110px;
+    float: right;
+}
+
+.View{
+    font-family: 'Press Start 2P';
+    margin-top: 3px;
+    margin-bottom: 7px;
+    font-size: 10px;
+    color:white;
+}

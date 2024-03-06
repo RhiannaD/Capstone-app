@@ -1,0 +1,22 @@
+.musicCard{
+    margin:150px 0px 5px 20px;
+    width: 20em;
+  
+   
+    
+
+}
+.cardContent{
+    background: linear-gradient(rgb(216, 112, 112),gray);
+  
+   
+    
+}
+
+.track{
+  font-family:'Pirata One' ;
+}
+
+.artist{
+    font-family:'Pirata One' ;
+}
